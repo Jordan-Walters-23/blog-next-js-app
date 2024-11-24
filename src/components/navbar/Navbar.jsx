@@ -37,7 +37,7 @@ const links = [
 const Navbar = () => {
   return (
     <div>
-        <Link href="/">Jordan Walter</Link>
+        <Link href="/">Jordan Walters</Link>
         <div>
             {links.map(link=>
                 <Link key={link.id} href={link.url}>{link.title}</Link>
