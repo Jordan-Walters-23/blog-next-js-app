@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
 import CoverPhoto from '/public/coverPhoto.jpg'
+import Button from '@/src/components/Button/Button'
 
 const About = () => {
   return (
@@ -20,6 +21,8 @@ const About = () => {
       </div>
       <div className={styles.item}>
         <h1 className={styles.title}>Who am I?</h1>
+        <p>Facilisi justo commodo parturient convallis nam. Sit gravida pharetra erat praesent, per ultricies taciti class. Vel montes condimentum faucibus vestibulum magnis curae maecenas bibendum. Ad est phasellus; vestibulum quisque consequat nibh curabitur nunc facilisis. Malesuada nec consequat primis platea donec ante. Imperdiet magna penatibus fringilla quam luctus dictum accumsan. Montes donec fusce torquent tellus urna lectus.</p>
+        <Button url="/contact" text='Contact'/>
       </div>
       </div>
 
