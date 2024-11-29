@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./page.module.css";
 import Image from "next/image";
+import styles from "./page.module.css";
 import CoverPhoto from "/public/coverPhoto.jpg";
 import Button from "@/src/components/Button/Button";
 
@@ -47,7 +47,7 @@ const About = () => {
             Imperdiet magna penatibus fringilla quam luctus dictum accumsan.
             Montes donec fusce torquent tellus urna lectus.
           </p>
-          <Button url="/contact" text="Contact" />
+          <Button url="/contact" text="Contact"/>
         </div>
       </div>
     </div>
