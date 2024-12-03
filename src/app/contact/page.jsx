@@ -13,7 +13,7 @@ const Contact = () => {
             src='/contact.png'
             alt='contact'
             fill={true}
-            className={styles.image}
+            className={styles.img}
           />
         </div>
         <form className={styles.form}>
