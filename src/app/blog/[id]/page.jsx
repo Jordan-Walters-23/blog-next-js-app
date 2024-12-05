@@ -13,12 +13,12 @@ const BlogPost = () => {
           <div className={styles.author}>
             <Image
               src="https://images.pexels.com/photos/818819/pexels-photo-818819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="blog image"
+              alt="avatar"
               width={40}
               height={40}
               className={styles.avatar}
             />
-            <span className={styles.username}></span>
+            <span className={styles.username}>Jane Doe</span>
           </div>
         </div>
         <div className={styles.imgContainer}>
@@ -26,7 +26,7 @@ const BlogPost = () => {
             src="https://images.pexels.com/photos/18327490/pexels-photo-18327490/free-photo-of-multi-colored-labels-screening-on-standing-man-in-eyeglasses.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="blog image"
             fill={true}
-            className={styles.Image}
+            className={styles.image} 
           />
         </div>
       </div>
