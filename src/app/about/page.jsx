@@ -4,7 +4,8 @@ import styles from "./page.module.css";
 import CoverPhoto from "/public/coverPhoto.jpg";
 import Button from "@/src/components/Button/Button";
 
-const About = () => {
+const About = ({params}) => {
+  console.log(params)
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
