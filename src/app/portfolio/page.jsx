@@ -11,7 +11,7 @@ const Portfolio = () => {
           <span className={styles.title}>Software</span>
         </Link>
         <Link href='portfolio/design' className={styles.item}>
-          <span className={styles.title}>Desgin</span>
+          <span className={styles.title}>Design</span>
         </Link>
         <Link href='portfolio/automation' className={styles.item}>
           <span className={styles.title}>Automation</span>

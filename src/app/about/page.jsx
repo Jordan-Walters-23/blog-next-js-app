@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import CoverPhoto from "/public/coverPhoto.jpg";
-import Button from "@/src/components/Button/Button";
+import Button from "../../components/Button/Button";
 
 const About = ({params}) => {
-  console.log(params)
+  // console.log(params)
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
